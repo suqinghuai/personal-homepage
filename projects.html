@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>成果展示｜苏青淮的个人主页</title>
+<meta name="description" content="苏青淮的项目与接单成果：STM32、ESP32、C51 嵌入式项目，Python 与 AI 工具，视频剪辑；以及可接的服务范围和交付流程。">
+<meta name="author" content="苏青淮">
+<meta name="theme-color" content="#06080D">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2306080D'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='%233FDFC8' stroke-width='1' opacity='.7'/%3E%3Cpath d='M16 3v5M16 24v5M3 16h5M24 16h5' stroke='%233FDFC8' stroke-width='1' opacity='.45'/%3E%3Ccircle cx='16' cy='16' r='2.4' fill='%23DFAE63'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fastly.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fontsource/noto-serif-sc@5/400.css">
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fontsource/noto-serif-sc@5/700.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="index.html">苏青淮<i>S.Q.H</i></a>
+    <nav aria-label="主导航">
+      <ul class="nav__links">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="about.html">关于我</a></li>
+        <li><a href="experience.html">履历</a></li>
+        <li><a href="projects.html" aria-current="page">成果</a></li>
+        <li><a href="contact.html">联系</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="shell">
+
+  <section class="page-head">
+    <p class="hero__kicker">成果展示</p>
+    <h1>能跑起来的东西</h1>
+    <p>项目按「名字 / 一句话 / 技术栈」排，下面这些条目可以直接换成你自己的作品。</p>
+  </section>
+
+  <section class="section">
+    <div class="sec-head">
+      <h2>项目</h2>
+      <p>共 <span data-count>7</span> 条</p>
+    </div>
+
+    <div class="filters" data-filters role="group" aria-label="按类别筛选项目">
+      <button class="filter" type="button" data-filter="all" aria-pressed="true">全部</button>
+      <button class="filter" type="button" data-filter="embed" aria-pressed="false">嵌入式</button>
+      <button class="filter" type="button" data-filter="ai" aria-pressed="false">AI 与 Python</button>
+      <button class="filter" type="button" data-filter="video" aria-pressed="false">剪辑</button>
+    </div>
+
+    <div class="ledger">
+      <div class="ledger__row" data-cat="embed">
+        <div class="ledger__top">
+          <span class="ledger__title">STM32 多传感器采集与上位机</span>
+          <span class="ledger__meta">嵌入式</span>
+        </div>
+        <p class="ledger__desc">采样、滤波、串口上报，上位机看实时曲线。从原理图到程序一个人做完，交付时可演示。</p>
+        <p class="ledger__tags">STM32 / C / 串口通信</p>
+      </div>
+
+      <div class="ledger__row" data-cat="embed">
+        <div class="ledger__top">
+          <span class="ledger__title">ESP32 联网传感节点</span>
+          <span class="ledger__meta">嵌入式</span>
+        </div>
+        <p class="ledger__desc">传感器数据上云，手机端随时能看；断网时本地缓存，网络恢复后补传。</p>
+        <p class="ledger__tags">ESP32 / Arduino / MQTT</p>
+      </div>
+
+      <div class="ledger__row" data-cat="embed">
+        <div class="ledger__top">
+          <span class="ledger__title">C51 定时控制小系统</span>
+          <span class="ledger__meta">嵌入式</span>
+        </div>
+        <p class="ledger__desc">按键、数码管、继电器组成的小控制台，能自己连续跑一整天不跑飞。</p>
+        <p class="ledger__tags">C51 / C / 数码管</p>
+      </div>
+
+      <div class="ledger__row" data-cat="ai">
+        <div class="ledger__top">
+          <span class="ledger__title">批量文件整理脚本</span>
+          <span class="ledger__meta">AI / Python</span>
+        </div>
+        <p class="ledger__desc">按规则重命名、分类、去重，一次处理几千个文件，出错会留日志。</p>
+        <p class="ledger__tags">Python / 文件批处理</p>
+      </div>
+
+      <div class="ledger__row" data-cat="ai">
+        <div class="ledger__top">
+          <span class="ledger__title">长文档整理小工具</span>
+          <span class="ledger__meta">AI / Python</span>
+        </div>
+        <p class="ledger__desc">把长文档拆段、摘要、归档，接进平时的接单流程里，重复的活交给程序。</p>
+        <p class="ledger__tags">Python / 模型调用</p>
+      </div>
+
+      <div class="ledger__row" data-cat="ai">
+        <div class="ledger__top">
+          <span class="ledger__title">数据清洗与出图</span>
+          <span class="ledger__meta">AI / Python</span>
+        </div>
+        <p class="ledger__desc">把杂乱的表格洗成能看的样子，再出一组图；口径和缺失值先对齐，再动手。</p>
+        <p class="ledger__tags">Python / 数据处理 / 可视化</p>
+      </div>
+
+      <div class="ledger__row" data-cat="video">
+        <div class="ledger__top">
+          <span class="ledger__title">课程与产品短片</span>
+          <span class="ledger__meta">剪辑</span>
+        </div>
+        <p class="ledger__desc">从素材整理到成片交付：卡点、字幕、调色，赶工期的时候也能按截止时间出片。</p>
+        <p class="ledger__tags">剪辑 / 字幕 / 调色</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 能接的活 ===== -->
+  <section class="section">
+    <div class="sec-head">
+      <h2>能接的活</h2>
+      <p>近一年 7000 次远程协助，好评率 92%</p>
+    </div>
+    <div class="svc">
+      <div class="svc__item svc__item--plain">
+        <p class="svc__text"><strong>线上远程协助</strong><br><span>软件环境、代码报错、单片机联调，按次或按小时。大多数问题一次会话能解决。</span></p>
+      </div>
+      <div class="svc__item svc__item--plain">
+        <p class="svc__text"><strong>单片机课程设计与调试</strong><br><span>选型、原理图、程序、联调，从零做到能当面演示。</span></p>
+      </div>
+      <div class="svc__item svc__item--plain">
+        <p class="svc__text"><strong>Python 脚本与数据处理</strong><br><span>自动化、批处理、清洗、出图，能写成别人接手也能用的样子。</span></p>
+      </div>
+      <div class="svc__item svc__item--plain">
+        <p class="svc__text"><strong>视频剪辑与成片</strong><br><span>素材整理、卡点、字幕、调色，直接给能发的版本。</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 交付流程 ===== -->
+  <section class="section">
+    <div class="sec-head">
+      <h2>怎么合作</h2>
+      <p>四步，先说清楚再动手</p>
+    </div>
+    <div class="svc">
+      <div class="svc__item">
+        <span class="svc__idx">01</span>
+        <p class="svc__text">说清需求<span>　你要什么、什么时候要、现在卡在哪。</span></p>
+      </div>
+      <div class="svc__item">
+        <span class="svc__idx">02</span>
+        <p class="svc__text">评估报价<span>　能做的直接报价格和工期，做不了的也说清楚。</span></p>
+      </div>
+      <div class="svc__item">
+        <span class="svc__idx">03</span>
+        <p class="svc__text">交付与修改<span>　先给能用的版本，再按你的反馈改。</span></p>
+      </div>
+      <div class="svc__item">
+        <span class="svc__idx">04</span>
+        <p class="svc__text">收尾<span>　交付源码或成片，交付后一周内的问题继续跟。</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="cta">
+      <h2>手上有活，聊两句</h2>
+      <p>把需求、预算和截止时间一起发过来，回得快一些。</p>
+      <a class="btn" href="contact.html">看联系方式</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot shell">
+  <p>© <span data-year>2026</span> 苏青淮　安徽 淮南</p>
+  <p>
+    <a href="experience.html">工作履历</a>
+    <a href="contact.html">联系方式</a>
+  </p>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
